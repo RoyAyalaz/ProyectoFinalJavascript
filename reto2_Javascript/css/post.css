@@ -1,0 +1,139 @@
+.post {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .post-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .post-tags {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-tags li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .post-tag {
+    background: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+
+  
+  .comment-section {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 20px;
+  }
+  
+  .comment-count {
+    font-weight: bold;
+  }
+  
+  .subscribe-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-aside,
+.right-aside {
+    background-color: #f5f5f5; 
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #ffffff; 
+    padding: 20px;
+    width: 100%; 
+    min-width: 900px; 
+    width: auto;
+    margin: auto; 
+}
+
+
+.post-cover {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 3em;
+    color: #333; 
+}
+.post-content {
+    margin-bottom: 20px;
+    font-size: 3em;
+
+  }
+.post-meta,
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-tags {
+}
+
+.post-interactions {
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .author-avatar {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  
+  .author-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    font-size: 1em; 
+  }
+  
+  .post-metadata {
+    font-size: 0.8em;
+    color: #777; 
+  }
+  
+  .emojis{
+    height: 60%;
+    width: 60%;
+  }
+

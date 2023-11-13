@@ -1,0 +1,185 @@
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+strong{
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-size: 14px;
+    padding-right: 18px;
+    font-weight: 100;
+    margin: 0;
+    color: #404040a8;
+}
+.borders{
+    border-style: ridge;
+    border-width: 1px;
+    border-color: #40404022;
+}
+.h1-title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.happyC > p{
+    font-size: 16px;
+    margin-right: 9px;
+}
+.card{
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.card-2 > p:first-child{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    margin-right: 72%;
+    justify-content: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-texto-2 > h1{
+    font-size: 20px;
+}
+.header-texto-2 > p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.top-post>p{
+    margin: 25px 20px 10px 15px;
+    font-size: 18px;
+    font-size: 100;
+    color: rgba(0, 0, 0, 0.476);
+}
+.top-post>p:first-child{
+    font-weight: 700;
+    color: black;
+}
+.emojis{
+    width: 100px;
+}
+.comment, .etiqueta{
+    width: 20px;
+}
+.emojis-comment{
+    width: 100%;
+}
+.etiqueta{
+    margin-left: 10px;
+    width: 25px;
+}
+.comment-container{
+    margin-right: 10%;
+}
+.contenedor-reacciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.read{
+    width:140px
+}
+.ico {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  .ico-container{
+    margin-right: 10px;
+  }
+  .emojis-container{
+    margin-right: 2%;
+  }
+.waifu{
+    height: 290px;
+    width: 100%;
+  }
+.devAzul{
+    height: 360px;
+    width: 100%;
+    border-radius: 7px;
+}
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .hashtags{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  .start-now{
+    font-size: 24px;
+    color: #3b49df;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+@media (max-width: 767px) {
+    .contenedor-waifu{
+        width: 100vw;
+        display: flex;
+    }
+    .contenedor-azul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card-2{
+        width: 100vw;
+        padding: 16px;
+    }
+    .post-container{
+        width: 99vw;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .info-user{
+        margin-left: 20px;
+    }
+    .info-post-container{
+        margin-left: 40px;
+    }
+    .card-2{
+        padding: 22px 20px 22px 20px;
+        background-color: white;
+        margin-bottom: 20px;
+        border-radius: 7px;
+    }
+    .aside-izq{
+        flex-grow: 1;
+    }
+    .sec{
+        flex-grow: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .waifu, .devAzul{
+        height: 246px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-bottom: 20px;
+    }
+    .devAzul{
+        width: 100%;
+        height: 230px;
+    }
+    .header-texto{
+        margin-left: 20px;
+    }
+}

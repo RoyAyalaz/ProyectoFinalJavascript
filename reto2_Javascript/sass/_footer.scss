@@ -1,0 +1,25 @@
+.footer-container{
+    width: 100%;
+    height: 466px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(234, 234, 234, 0.725);
+}
+.ft2{
+    font-size: 14px;
+}
+.ul-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style:inside;
+}
+.ul-cont>li{
+    margin: 20px;
+}
+.cont{
+    margin: 30px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+
+    <link rel="stylesheet" href="/css/newpost.css">
+
+    <title>Create Post - DEV Community</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html"><img src="./img/dev.png" alt="" class="img-devN"></a>
+              <span class="navbar-title">Create Post</span>
+             
+            </div>
+             <div class="navbar-actions">
+                <button class="navbar-action-button edit">Edit</button>
+                <button class="navbar-action-button preview">Preview</button>
+              </div>
+          </nav>
+          
+     </header>
+
+    <main>
+        <div class="create-post-container">
+            <h1 class="create-post-title">Create Post</h1>
+            <form class="create-post-form" action="/submit-post" method="post">
+                <button type="button" id="add-cover-image-btn" class="add-cover-image-btn">Add a cover image</button>
+                <input type="file" id="coverImageInput" style="display: none;" />
+                <div id="image-preview-container" class="image-preview-container"></div>
+
+                <input type="text" class="new-post-title-input" placeholder="New post title here..." name="title">
+                <div class="tags-input-container">
+                    <input type="text" class="tags-input" placeholder="Add up to 4 tags..." name="tags">
+                </div>
+                <div class="post-editor">
+                    <div class="editor-toolbar">
+                    </div>
+                    <textarea class="post-content-textarea" name="content" rows="10" placeholder="Write your post content here..."></textarea>
+                </div>
+                <div class="tags-input-container">
+                    <input type="text" class="rate" placeholder="rate" name="tags">
+                </div>
+            </form>
+         
+        </div>
+          
+    </main>
+    <div class="post-actions">
+        <button type="submit" class="publish-btn">Publish</button>
+        <button type="button" class="save-draft-btn">Save draft</button>
+    </div>
+    <footer>
+    </footer>
+
+    <script src="create_post.js"></script>
+
+</body>
+
+</html>
